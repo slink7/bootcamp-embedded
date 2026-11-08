@@ -1268,7 +1268,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "J"
-			(at 0 5.715 0)
+			(at 0 9.652 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1322,8 +1322,8 @@
 		)
 		(symbol "Pins6_0_1"
 			(rectangle
-				(start -1.27 4.445)
-				(end 1.27 -4.445)
+				(start -1.27 7.62)
+				(end 1.27 -7.62)
 				(stroke
 					(width 0)
 					(type default)
@@ -1335,109 +1335,109 @@
 		)
 		(symbol "Pins6_1_1"
 			(pin passive line
-				(at 3.81 3.175 180)
+				(at 3.81 6.35 180)
 				(length 2.54)
 				(name ""
 					(effects
 						(font
-							(size 0.635 0.635)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "1"
 					(effects
 						(font
-							(size 0.635 0.635)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
 			(pin passive line
-				(at 3.81 1.905 180)
+				(at 3.81 3.81 180)
 				(length 2.54)
 				(name ""
 					(effects
 						(font
-							(size 0.635 0.635)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "2"
 					(effects
 						(font
-							(size 0.635 0.635)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
 			(pin passive line
-				(at 3.81 0.635 180)
+				(at 3.81 1.27 180)
 				(length 2.54)
 				(name ""
 					(effects
 						(font
-							(size 0.635 0.635)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "3"
 					(effects
 						(font
-							(size 0.635 0.635)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
 			(pin passive line
-				(at 3.81 -0.635 180)
+				(at 3.81 -1.27 180)
 				(length 2.54)
 				(name ""
 					(effects
 						(font
-							(size 0.635 0.635)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "4"
 					(effects
 						(font
-							(size 0.635 0.635)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
 			(pin passive line
-				(at 3.81 -1.905 180)
+				(at 3.81 -3.81 180)
 				(length 2.54)
 				(name ""
 					(effects
 						(font
-							(size 0.635 0.635)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "5"
 					(effects
 						(font
-							(size 0.635 0.635)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
 			(pin passive line
-				(at 3.81 -3.175 180)
+				(at 3.81 -6.35 180)
 				(length 2.54)
 				(name ""
 					(effects
 						(font
-							(size 0.635 0.635)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "6"
 					(effects
 						(font
-							(size 0.635 0.635)
+							(size 1.27 1.27)
 						)
 					)
 				)

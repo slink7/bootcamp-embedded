@@ -2390,7 +2390,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at -15.24 27.94 0)
 					(length 2.54)
 					(name "ADC6"
@@ -2426,7 +2426,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at -15.24 25.4 0)
 					(length 2.54)
 					(name "ADC7"
@@ -5135,6 +5135,28 @@
 			)
 		)
 	)
+	(global_label "A6"
+		(shape input)
+		(at 33.02 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "840bdb27-a756-4d23-8398-a88883e9bfe4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 33.02 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
 	(global_label "D9"
 		(shape input)
 		(at 63.5 90.17 0)
@@ -5389,6 +5411,28 @@
 		(uuid "ab580c50-b72d-412e-829c-c69e0339cf09")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 63.5 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "A7"
+		(shape input)
+		(at 33.02 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "aea6e95d-7008-4352-aad0-89baaf701ba5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 33.02 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
