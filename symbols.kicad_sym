@@ -789,7 +789,19 @@
 		(symbol "D_1_1"
 			(polyline
 				(pts
-					(xy -3.81 1.27) (xy -6.35 -1.27) (xy -5.08 -1.27) (xy -6.35 -1.27) (xy -6.35 0)
+					(xy -1.9939 0.6849) (xy -3.2639 -0.5851) (xy -2.5595 -0.5814) (xy -3.2639 -0.5851) (xy -3.2604 0.0716)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.978 2.3337) (xy -3.248 1.0637) (xy -3.2444 1.7283) (xy -3.248 1.0637) (xy -2.5515 1.0673)
 				)
 				(stroke
 					(width 0)
@@ -801,19 +813,7 @@
 			)
 			(polyline
 				(pts
-					(xy -3.81 -1.27) (xy -6.35 -3.81) (xy -6.35 -2.54) (xy -6.35 -3.81) (xy -5.08 -3.81)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -2.54) (xy -2.54 2.54) (xy 2.54 2.54) (xy 0 -2.54)
+					(xy 0 0) (xy -1.27 2.54) (xy 1.27 2.54) (xy 0 0)
 				)
 				(stroke
 					(width 0)
@@ -825,7 +825,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 -2.54) (xy -2.54 -2.54)
+					(xy 1.27 0) (xy -1.27 0)
 				)
 				(stroke
 					(width 0)
@@ -854,7 +854,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -5.08 90)
+				(at 0 -2.54 90)
 				(length 2.54)
 				(name ""
 					(effects
@@ -976,7 +976,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "J"
-			(at 0 11.43 0)
+			(at -1.016 16.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -986,7 +986,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 0 0 0)
+			(at 0 -1.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -996,7 +996,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 0 0 0)
+			(at 0 -1.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -1007,7 +1007,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 -1.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -1018,7 +1018,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 -1.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -1030,8 +1030,8 @@
 		)
 		(symbol "Pins12_0_1"
 			(rectangle
-				(start 1.27 8.255)
-				(end -1.27 -8.255)
+				(start -1.27 15.24)
+				(end 1.27 -15.24)
 				(stroke
 					(width 0)
 					(type default)
@@ -1043,217 +1043,217 @@
 		)
 		(symbol "Pins12_1_1"
 			(pin passive line
-				(at 3.81 6.985 180)
+				(at 3.81 13.97 180)
 				(length 2.54)
 				(name ""
 					(effects
 						(font
-							(size 0.635 0.635)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "1"
 					(effects
 						(font
-							(size 0.635 0.635)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
 			(pin passive line
-				(at 3.81 5.715 180)
+				(at 3.81 11.43 180)
 				(length 2.54)
 				(name ""
 					(effects
 						(font
-							(size 0.635 0.635)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "2"
 					(effects
 						(font
-							(size 0.635 0.635)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
 			(pin passive line
-				(at 3.81 4.445 180)
+				(at 3.81 8.89 180)
 				(length 2.54)
 				(name ""
 					(effects
 						(font
-							(size 0.635 0.635)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "3"
 					(effects
 						(font
-							(size 0.635 0.635)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
 			(pin passive line
-				(at 3.81 3.175 180)
+				(at 3.81 6.35 180)
 				(length 2.54)
 				(name ""
 					(effects
 						(font
-							(size 0.635 0.635)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "4"
 					(effects
 						(font
-							(size 0.635 0.635)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
 			(pin passive line
-				(at 3.81 1.905 180)
+				(at 3.81 3.81 180)
 				(length 2.54)
 				(name ""
 					(effects
 						(font
-							(size 0.635 0.635)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "5"
 					(effects
 						(font
-							(size 0.635 0.635)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
 			(pin passive line
-				(at 3.81 0.635 180)
+				(at 3.81 1.27 180)
 				(length 2.54)
 				(name ""
 					(effects
 						(font
-							(size 0.635 0.635)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "6"
 					(effects
 						(font
-							(size 0.635 0.635)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
 			(pin passive line
-				(at 3.81 -0.635 180)
+				(at 3.81 -1.27 180)
 				(length 2.54)
 				(name ""
 					(effects
 						(font
-							(size 0.635 0.635)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "7"
 					(effects
 						(font
-							(size 0.635 0.635)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
 			(pin passive line
-				(at 3.81 -1.905 180)
+				(at 3.81 -3.81 180)
 				(length 2.54)
 				(name ""
 					(effects
 						(font
-							(size 0.635 0.635)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "8"
 					(effects
 						(font
-							(size 0.635 0.635)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
 			(pin passive line
-				(at 3.81 -3.175 180)
+				(at 3.81 -6.35 180)
 				(length 2.54)
 				(name ""
 					(effects
 						(font
-							(size 0.635 0.635)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "9"
 					(effects
 						(font
-							(size 0.635 0.635)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
 			(pin passive line
-				(at 3.81 -4.445 180)
+				(at 3.81 -8.89 180)
 				(length 2.54)
 				(name ""
 					(effects
 						(font
-							(size 0.635 0.635)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "10"
 					(effects
 						(font
-							(size 0.635 0.635)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
 			(pin passive line
-				(at 3.81 -5.715 180)
+				(at 3.81 -11.43 180)
 				(length 2.54)
 				(name ""
 					(effects
 						(font
-							(size 0.635 0.635)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "11"
 					(effects
 						(font
-							(size 0.635 0.635)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
 			(pin passive line
-				(at 3.81 -6.985 180)
+				(at 3.81 -13.97 180)
 				(length 2.54)
 				(name ""
 					(effects
 						(font
-							(size 0.635 0.635)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "12"
 					(effects
 						(font
-							(size 0.635 0.635)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -1268,7 +1268,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "J"
-			(at 0 5.715 0)
+			(at 0 9.652 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1322,8 +1322,8 @@
 		)
 		(symbol "Pins6_0_1"
 			(rectangle
-				(start -1.27 4.445)
-				(end 1.27 -4.445)
+				(start -1.27 7.62)
+				(end 1.27 -7.62)
 				(stroke
 					(width 0)
 					(type default)
@@ -1335,109 +1335,109 @@
 		)
 		(symbol "Pins6_1_1"
 			(pin passive line
-				(at 3.81 3.175 180)
+				(at 3.81 6.35 180)
 				(length 2.54)
 				(name ""
 					(effects
 						(font
-							(size 0.635 0.635)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "1"
 					(effects
 						(font
-							(size 0.635 0.635)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
 			(pin passive line
-				(at 3.81 1.905 180)
+				(at 3.81 3.81 180)
 				(length 2.54)
 				(name ""
 					(effects
 						(font
-							(size 0.635 0.635)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "2"
 					(effects
 						(font
-							(size 0.635 0.635)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
 			(pin passive line
-				(at 3.81 0.635 180)
+				(at 3.81 1.27 180)
 				(length 2.54)
 				(name ""
 					(effects
 						(font
-							(size 0.635 0.635)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "3"
 					(effects
 						(font
-							(size 0.635 0.635)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
 			(pin passive line
-				(at 3.81 -0.635 180)
+				(at 3.81 -1.27 180)
 				(length 2.54)
 				(name ""
 					(effects
 						(font
-							(size 0.635 0.635)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "4"
 					(effects
 						(font
-							(size 0.635 0.635)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
 			(pin passive line
-				(at 3.81 -1.905 180)
+				(at 3.81 -3.81 180)
 				(length 2.54)
 				(name ""
 					(effects
 						(font
-							(size 0.635 0.635)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "5"
 					(effects
 						(font
-							(size 0.635 0.635)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
 			(pin passive line
-				(at 3.81 -3.175 180)
+				(at 3.81 -6.35 180)
 				(length 2.54)
 				(name ""
 					(effects
 						(font
-							(size 0.635 0.635)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "6"
 					(effects
 						(font
-							(size 0.635 0.635)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -1517,8 +1517,8 @@
 		)
 		(symbol "R_0_1"
 			(rectangle
-				(start 3.81 -1.27)
-				(end -3.81 1.27)
+				(start -1.2699 0.635)
+				(end 1.27 -0.635)
 				(stroke
 					(width 0)
 					(type default)
@@ -1530,7 +1530,7 @@
 		)
 		(symbol "R_1_1"
 			(pin passive line
-				(at -6.35 0 0)
+				(at -3.81 0 0)
 				(length 2.54)
 				(name ""
 					(effects
@@ -1548,7 +1548,7 @@
 				)
 			)
 			(pin passive line
-				(at 6.35 0 180)
+				(at 3.81 0 180)
 				(length 2.54)
 				(name ""
 					(effects
@@ -1575,7 +1575,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "SW_Push"
-			(at 0 6.35 0)
+			(at 0 5.334 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1629,8 +1629,8 @@
 		)
 		(symbol "SW_1_1"
 			(circle
-				(center -3.81 0)
-				(radius 1.27)
+				(center -1.905 0)
+				(radius 0.635)
 				(stroke
 					(width 0)
 					(type default)
@@ -1641,19 +1641,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 2.54) (xy 0 3.81) (xy 0 5.08)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.81 2.54) (xy -3.81 2.54)
+					(xy 0 1.27) (xy 0 2.54) (xy 0 3.81)
 				)
 				(stroke
 					(width 0)
@@ -1664,8 +1652,20 @@
 				)
 			)
 			(circle
-				(center 3.81 0)
-				(radius 1.27)
+				(center 1.905 0)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 1.27) (xy -2.54 1.27)
+				)
 				(stroke
 					(width 0)
 					(type default)
@@ -1675,7 +1675,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 0 0)
+				(at -5.08 0 0)
 				(length 2.54)
 				(name ""
 					(effects
@@ -1693,7 +1693,7 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 0 180)
+				(at 5.08 0 180)
 				(length 2.54)
 				(name ""
 					(effects
