@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "Library") (type "KiCad") (uri "/home/slink/workspace/bootcamp-embedded/Library.pretty") (options "") (descr ""))
+)
