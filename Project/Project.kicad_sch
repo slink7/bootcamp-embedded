@@ -113,7 +113,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin power_in line
 					(at 0 -35.56 90)
 					(length 2.54)
 					(name "GND"
@@ -603,6 +603,12 @@
 			(embedded_fonts no)
 		)
 		(symbol "symbols:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -728,6 +734,12 @@
 			(embedded_fonts no)
 		)
 		(symbol "symbols:D"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -878,10 +890,17 @@
 			(embedded_fonts no)
 		)
 		(symbol "symbols:GND"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board no)
+			(in_pos_files no)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "GND"
 				(at 0 -2.286 0)
@@ -893,10 +912,11 @@
 					)
 				)
 			)
-			(property "Value" ""
+			(property "Value" "GND"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -951,10 +971,113 @@
 				)
 			)
 			(symbol "GND_1_1"
-				(pin passive line
+				(pin power_in line
 					(at 0 2.54 270)
 					(length 2.54)
-					(name ""
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "symbols:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board no)
+			(in_pos_files no)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "PWR_FLAG"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy -0.635 0.635) (xy 0 1.27) (xy 0.635 0.635) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_1_1"
+				(pin power_out line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "PWR_FLAG"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1449,6 +1572,12 @@
 			(embedded_fonts no)
 		)
 		(symbol "symbols:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1572,6 +1701,12 @@
 			(embedded_fonts no)
 		)
 		(symbol "symbols:SW"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1717,10 +1852,17 @@
 			(embedded_fonts no)
 		)
 		(symbol "symbols:VCC"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board no)
+			(in_pos_files no)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "VCC"
 				(at 0 3.81 0)
@@ -1732,10 +1874,11 @@
 					)
 				)
 			)
-			(property "Value" ""
+			(property "Value" "VCC"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1790,10 +1933,10 @@
 				)
 			)
 			(symbol "VCC_1_1"
-				(pin power_out line
+				(pin power_in line
 					(at 0 -2.54 90)
 					(length 2.54)
-					(name ""
+					(name "VCC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2171,6 +2314,26 @@
 			(type default)
 		)
 		(uuid "11fe6713-2c8e-4fae-87f6-90c64ee0bcb8")
+	)
+	(wire
+		(pts
+			(xy 20.32 25.4) (xy 20.32 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c5dd77a-cb6d-49c7-93fa-96dc17d4d295")
+	)
+	(wire
+		(pts
+			(xy 27.94 25.4) (xy 27.94 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fecca60-eabe-42e2-8e2d-4f659d0b2dd0")
 	)
 	(wire
 		(pts
@@ -3807,7 +3970,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0428820d-25e4-49f2-a7d8-d01c9c3daee6")
-		(property "Reference" "GND0"
+		(property "Reference" "GND1"
 			(at 80.518 112.776 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3818,8 +3981,9 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "GND"
 			(at 82.55 109.22 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3867,7 +4031,7 @@
 		(instances
 			(project "Project"
 				(path "/ebb1f5d0-c447-4097-b20c-2f27d40887e8"
-					(reference "GND0")
+					(reference "GND1")
 					(unit 1)
 				)
 			)
@@ -4045,7 +4209,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2128ca2e-0bee-4f7b-91cd-35ecc540d4fc")
-		(property "Reference" "GND1"
+		(property "Reference" "GND0"
 			(at 108.458 114.046 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4056,8 +4220,9 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "GND"
 			(at 110.49 110.49 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4105,7 +4270,7 @@
 		(instances
 			(project "Project"
 				(path "/ebb1f5d0-c447-4097-b20c-2f27d40887e8"
-					(reference "GND1")
+					(reference "GND0")
 					(unit 1)
 				)
 			)
@@ -4243,8 +4408,9 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "GND"
 			(at 82.55 54.61 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4399,8 +4565,9 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "VCC"
 			(at 19.05 80.01 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4477,8 +4644,9 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "VCC"
 			(at 179.07 26.67 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4633,8 +4801,9 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "GND"
 			(at 48.26 161.29 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4711,8 +4880,9 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "VCC"
 			(at 95.25 26.67 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4789,8 +4959,9 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "GND"
 			(at 156.21 50.8 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4937,6 +5108,84 @@
 		)
 	)
 	(symbol
+		(lib_id "symbols:PWR_FLAG")
+		(at 20.32 22.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "81524ea0-ba88-4850-8b46-1b5cf0fef43f")
+		(property "Reference" "PWR_FLAG01"
+			(at 14.478 19.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 20.32 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 20.32 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 20.32 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 20.32 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b7e8ae9c-1a77-4893-ad9a-65b5b4d3a6d2")
+		)
+		(instances
+			(project "Project"
+				(path "/ebb1f5d0-c447-4097-b20c-2f27d40887e8"
+					(reference "PWR_FLAG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "symbols:GND")
 		(at 125.73 55.88 0)
 		(unit 1)
@@ -4959,8 +5208,9 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "GND"
 			(at 125.73 55.88 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5345,6 +5595,163 @@
 		)
 	)
 	(symbol
+		(lib_id "symbols:GND")
+		(at 27.94 29.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb08af0f-1d65-493c-98ea-59db4ebb8a01")
+		(property "Reference" "GND08"
+			(at 30.48 29.8449 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 27.94 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 27.94 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fcb86d37-1b41-41ab-af65-1e68d8ba5729")
+		)
+		(instances
+			(project "Project"
+				(path "/ebb1f5d0-c447-4097-b20c-2f27d40887e8"
+					(reference "GND08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "symbols:PWR_FLAG")
+		(at 27.94 22.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "bc141997-7c90-49b1-9bfe-a4a8b88684e0")
+		(property "Reference" "PWR_FLAG02"
+			(at 24.384 17.018 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 27.94 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 27.94 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "11b928c2-0dc5-4bb6-85ad-ae446f053544")
+		)
+		(instances
+			(project "Project"
+				(path "/ebb1f5d0-c447-4097-b20c-2f27d40887e8"
+					(reference "PWR_FLAG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "symbols:C")
 		(at 96.52 102.87 270)
 		(unit 1)
@@ -5418,6 +5825,85 @@
 			(project "Project"
 				(path "/ebb1f5d0-c447-4097-b20c-2f27d40887e8"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "symbols:VCC")
+		(at 20.32 29.21 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c664e64c-f570-444e-8e67-9b93c8532e37")
+		(property "Reference" "VCC04"
+			(at 22.86 30.4799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "VCC"
+			(at 20.32 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 20.32 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 20.32 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 20.32 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8477d446-5419-4ec0-90bc-668e04330378")
+		)
+		(instances
+			(project "Project"
+				(path "/ebb1f5d0-c447-4097-b20c-2f27d40887e8"
+					(reference "VCC04")
 					(unit 1)
 				)
 			)
@@ -5773,8 +6259,9 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "VCC"
 			(at 48.26 73.66 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5933,8 +6420,9 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "GND"
 			(at 68.58 54.61 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6010,8 +6498,9 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "GND"
 			(at 95.25 54.61 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
